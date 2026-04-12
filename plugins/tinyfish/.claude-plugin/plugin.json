@@ -1,0 +1,22 @@
+{
+  "name": "tinyfish",
+  "version": "1.0.0",
+  "description": "Automate complex tasks on the web using natural language. TinyFish's Web Agent navigates sites, fills forms, extracts data, and completes multi-step browser workflows.",
+  "author": {
+    "name": "TinyFish",
+    "email": "support@tinyfish.io",
+    "url": "https://tinyfish.ai"
+  },
+  "homepage": "https://docs.tinyfish.ai",
+  "repository": "https://github.com/tinyfish-io/tinyfish-cookbook",
+  "license": "MIT",
+  "keywords": [
+    "web-automation",
+    "web-agent",
+    "browser-automation",
+    "web-scraping",
+    "data-extraction"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

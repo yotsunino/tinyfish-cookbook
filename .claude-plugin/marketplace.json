@@ -1,0 +1,32 @@
+{
+  "name": "tinyfish-marketplace",
+  "owner": {
+    "name": "TinyFish",
+    "email": "support@tinyfish.io"
+  },
+  "metadata": {
+    "description": "Official TinyFish plugins for Claude Code",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "tinyfish",
+      "source": "./tinyfish",
+      "description": "Automate complex tasks on the web using natural language. TinyFish's Web Agent navigates sites, fills forms, extracts data, and completes multi-step browser workflows.",
+      "version": "1.0.0",
+      "author": {
+        "name": "TinyFish",
+        "url": "https://tinyfish.ai"
+      },
+      "category": "automation",
+      "tags": [
+        "web-automation",
+        "web-agent",
+        "browser-automation",
+        "web-scraping",
+        "data-extraction"
+      ]
+    }
+  ]
+}
