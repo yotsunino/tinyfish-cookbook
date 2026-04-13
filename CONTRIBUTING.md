@@ -25,7 +25,7 @@ TinyFish-cookbook/
 └── renovate.json
 ```
 
-> note: if your new to github, some of the steps below might seem a bit intimidating if your new to contributing to open source repos, but don't worry they become second nature after a while. And if this is your first time, we'd love to get one fo our engineers to hop on a call with you and guide you through! Hit us up on the [TinyFish Discord](https://discord.gg/tinyfish).
+> note: if your new to github, some of the steps below might seem a bit intimidating if you're new to contributing to open source repos, but don't worry they become second nature after a while. And if this is your first time, we'd love to get one of our engineers to hop on a call with you and guide you through! Hit us up on the [TinyFish Discord](https://discord.gg/tinyfish).
 
 ## Getting Started
 
@@ -46,16 +46,14 @@ Each project folder **must** include a `README.md` with the following:
 2. **Live link**
 3. **Short 2-3 liner about what your app is, and where the TinyFish API is used**
 4. **Demo Video** *(gif or video format, whatever works best)*
-5. **Snippet of your codebase that calls the TinyFish API** (the prompt can be truncated if its too long)
+5. **Snippet of your codebase that calls the TinyFish API** (the prompt can be truncated if it's too long)
 6. **How to Run the codebase** (declare any env vars that may be needed here)
 7. **Architecture Diagram**
 
 ## Submitting Your Project
 
-1. Remember to test your new app thoroughly, and make sure it's has a nice `README.md` as described in the above section
+1. Remember to test your new app thoroughly, and make sure it has a nice `README.md` as described in the above section
 2. Push all your changes to your forked repo
 3. Open a pull request, from your fork to the main TinyFish repo https://github.com/tinyfish-io/TinyFish-cookbook (main branch)
 4. Sit tight! The very best TinyFish engineers will take a look, give you feedback and test your app!
-5. If all's good! Your PR will be merged. Congrats! 🎉
-
-Keep committing often and keep your code safe! And always remember, if you need anything or have any doubts, hit us up at the the [TinyFish Discord](https://discord.gg/tinyfish)
+5. If a
