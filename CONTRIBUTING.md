@@ -56,4 +56,4 @@ Each project folder **must** include a `README.md` with the following:
 2. Push all your changes to your forked repo
 3. Open a pull request, from your fork to the main TinyFish repo https://github.com/tinyfish-io/TinyFish-cookbook (main branch)
 4. Sit tight! The very best TinyFish engineers will take a look, give you feedback and test your app!
-5. Once approved, your project will be merged and featured in the cookbook — congrats! 🎉
+5. Once approved and merged, your project will be live in the cookbook — congrats and welcome to the community! 🎉
