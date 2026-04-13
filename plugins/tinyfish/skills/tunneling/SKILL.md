@@ -17,13 +17,15 @@ which ssh && echo "SSH available" || echo "SSH not found — install OpenSSH fir
 
 ## Quick Start
 
-Expose a local port to the internet:
+**Warning:** This exposes your local service to the public internet. Avoid tunneling admin panels, debug endpoints, or services that expose secrets or credentials.
 
 ```bash
 ssh -o StrictHostKeyChecking=accept-new -R 80:localhost:<PORT> tinyfi.sh
 ```
 
 Replace `<PORT>` with the port your app is running on. The command will print a public `https://<random>.tinyfi.sh` URL.
+
+> **Note:** `StrictHostKeyChecking=accept-new` automatically trusts the tinyfi.sh host key on first connection and rejects changes on subsequent connections. This is safe for typical use but if you require stricter verification, you can manually confirm the server fingerprint before first use.
 
 ## Custom Subdomain
 
