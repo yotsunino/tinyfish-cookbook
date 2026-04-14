@@ -71,3 +71,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 - [Tinyfish Documentation](https://docs.tinyfish.io)
 - [Tinyfish Dashboard](https://app.tinyfish.io)
 - [Community Forum](https://community.tinyfish.io)
+
+---
+
+> **Personal fork note**: I'm using this repo to learn Tinyfish's CI integration patterns. Primarily interested in the GitHub Actions workflows and Semgrep configuration examples.
