@@ -22,7 +22,7 @@ export interface CompletionOptions {
 }
 
 const DEFAULT_MODEL = "claude-3-5-sonnet-20241022";
-const DEFAULT_MAX_TOKENS = 1024;
+const DEFAULT_MAX_TOKENS = 2048; // increased from 1024 - 1024 was too short for most of my use cases
 
 /**
  * Creates and returns a configured Anthropic client instance.
@@ -105,12 +105,4 @@ export async function* streamComplete(
 
   for await (const event of stream) {
     if (
-      event.type === "content_block_delta" &&
-      event.delta.type === "text_delta"
-    ) {
-      yield event.delta.text;
-    }
-  }
-}
-
-export default { createClient, complete, streamComplete };
+      event.t
