@@ -75,3 +75,8 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 ---
 
 > **Personal fork note**: I'm using this repo to learn Tinyfish's CI integration patterns. Primarily interested in the GitHub Actions workflows and Semgrep configuration examples.
+>
+> **My learning checklist:**
+> - [ ] Understand the GitHub Actions workflow triggers and job structure
+> - [ ] Figure out how to customize Semgrep rules for a monorepo setup
+> - [ ] Test the secrets scanner locally before relying on CI
